@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="@string/Click_here"
+        android:gravity="center"
+        android:id="@+id/clickbtn"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"/>
+
+ <!--   <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pending_data_to_sync"
+        android:gravity="center"
+        android:textColor="@color/white"
+      >
+
+    </androidx.appcompat.widget.AppCompatTextView>-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rcpendingData"
+        android:layout_marginTop="10dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

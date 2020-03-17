@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">TLPInstallation</string>
+    <string name="section_name">Section Name</string>
+    <string name="section_no">Section No</string>
+    <string name="tlp_installation">TLP Installation</string>
+    <string name="pipe_dia_amp_thickness"><![CDATA[Pipe Dia. & Thickness]]></string>
+    <string name="enter_diameter_and_thickness">Enter diameter And Thickness</string>
+    <string name="pipe_specification">Pipe Specification</string>
+    <string name="enter_pipe_specification">Enter Pipe Specification</string>
+    <string name="enter_pipe_section_length">Enter Pipe Section Length</string>
+    <string name="pipe_section_length">Pipe Section Length</string>
+    <string name="user">USER_DB</string>
+    <string name="save">Save</string>
+    <string name="teststation_heading">Test Station Location Point And Anode Installation</string>
+    <string name="sub_vendor_name_amp_po_no"><![CDATA[Sub-Vendor Name & PO No]]></string>
+    <string name="stage">Stage</string>
+    <string name="cgs">Cgs</string>
+    <string name="vendor">Vendor</string>
+    <string name="submit">Submit</string>
+    <string name="ts_identificationno">Test Station Identification No.</string>
+    <string name="ts_location">Test Station Location(Chainage in km)</string>
+    <string name="ts_type_qty"><![CDATA[Test Station Type & Qty]]></string>
+    <string name="foudation_ts_mounting"><![CDATA[Foundation & Test Station Mounting]]></string>
+    <string name="ts_painting">Test Station Painting/Doors/Locks/Gasket</string>
+    <string name="cable_terminals">Cable Terminals</string>
+    <string name="length_cable">No. Of Cables Used</string>
+    <string name="no_thermit">No. Of tThermit Welding</string>
+    <string name="holiday_chk"><![CDATA[Holiday Check & Restoration]]></string>
+    <string name="continuity_chk">Continuity Check</string>
+    <string name="anode_installation">Anode Installation</string>
+    <string name="anode_id">Anode Identification No</string>
+    <string name="anode_location">Anode Location(Chainage in km)</string>
+    <string name="type_scrificial">Type of Sacrificial Anode</string>
+    <string name="instalation_depth">Installation Depth(Mtrs)</string>
+    <string name="distance_pipeline">Distance From Pipeline(Mtrs)</string>
+    <string name="length_tailc">Length of tail cable</string>
+    <string name="termination">Termination with Test Station</string>
+    <string name="ok">OK</string>
+    <string name="not_ok">NOT OK</string>
+    <string name="location">Location</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="teststation">Test Station</string>
+    <string name="sync">Synced</string>
+    <string name="enter_tlp_no">enter tlp no</string>
+    <string name="enter_chainage">enter chainage</string>
+    <string name="photo">Photo</string>
+    <string name="client_name">Client Name</string>
+    <string name="enter_no_of_tlp_installation">enter no of tlp installation</string>
+    <string name="preview_amp_submit"><![CDATA[Preview & Submit]]></string>
+    <string name="save_as_draft">SAVE AS DRAFT</string>
+    <string name="pending_data_to_sync">Pending Data to Sync</string>
+    <string name="cables_fortlp">Cables For TLP</string>
+    <string name="Types_cable">Types of cable</string>
+    <string name="TLPNO">ENTER TLPNO</string>
+    <string name="chaneage">ENTER CHAINAGE</string>
+    <string name="locationenter">ENTER LOCATION</string>
+    <string name="cabletyp">ENTER CABLE TYPE</string>
+    <string name="attachment">ADD ATTACHMENT</string>
+    <string name="Click_here">Click to Sync</string>
+    <string name="tlp_no">Tlp no</string>
+    <array name="fake">
+        <item>SELECT TYPE </item>
+        <item>1*4 Sq mm</item>
+        <item>1*6 Sq mm</item>
+        <item>1*10 Sq mm</item>
+        <item>1*25 Sq mm</item>
+        <item>1*35 Sq mm</item>
+    </array>
+    <array name="type_cable">
+        <item>SELECT TYPE OF TLP</item>
+        <item>A</item>
+        <item>M</item>
+        <item>J</item>
+
+    </array>
+    <array name="cable_length">
+        <item>Select</item>
+        <item>1C*4 Sq mm</item>
+        <item>1C*10 Sq mm</item>
+    </array>
+    <array name="thermit_wielding">
+        <item>Select</item>
+        <item>4 Sq mm</item>
+        <item>10 Sq mm</item>
+    </array>
+    <array name="type_scrificial_anode">
+        <item>Select</item>
+        <item>Mg Anode</item>
+        <item>Zn Anode</item>
+    </array>
+</resources>

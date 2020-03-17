@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Pending data to Sync"
+        android:id="@+id/sync_item">
+    </item>
+    <item
+    android:title="TLP Installation"
+    android:id="@+id/first_item">
+    </item>
+    <item
+        android:title="Test Station Installation"
+        android:id="@+id/second_item">
+    </item>
+</menu>

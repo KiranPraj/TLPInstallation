@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ettlpno"
+                android:inputType="textCapCharacters"
+                android:hint="@string/enter_tlp_no">
+            </androidx.appcompat.widget.AppCompatEditText>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:hint="@string/enter_chainage"
+                android:inputType="textCapCharacters"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/chainage">
+            </androidx.appcompat.widget.AppCompatEditText>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:hint="Enter Location"
+                android:inputType="textCapCharacters"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/location">
+            </androidx.appcompat.widget.AppCompatEditText>
+
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/sp_for_typecable"
+                android:entries="@array/type_cable"
+                android:inputType="textCapCharacters"
+                android:layout_marginLeft="5dp"
+                >
+            </com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/photo"
+                android:layout_marginLeft="5dp"
+                android:text="@string/photo">
+            </androidx.appcompat.widget.AppCompatButton>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
